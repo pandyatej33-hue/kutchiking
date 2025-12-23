@@ -21042,3 +21042,24 @@ section#courses img {
     height: 250px;
     object-fit: cover;
 }
+
+
+/* Default: Desktop */
+.mobile-iframe {
+    display: none;
+}
+
+.desktop-iframe {
+    display: block;
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+    .mobile-iframe {
+        display: block;
+    }
+
+    .desktop-iframe {
+        display: none;
+    }
+}
